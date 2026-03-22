@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archit Kesar | Resume</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    /* NAVBAR */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background: rgba(0,0,0,0.6);
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(10px);
+    }
+
+    nav h2 {
+      font-weight: 600;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00f5d4;
+    }
+
+    /* HEADER */
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #ff512f, #dd2476);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    /* SECTION */
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    /* CARD */
+    .card {
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px) scale(1.02);
+    }
+
+    .card h2 {
+      margin-bottom: 15px;
+      font-size: 1.4rem;
+      border-bottom: 2px solid rgba(255,255,255,0.3);
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #000;
+      color: #aaa;
+      margin-top: 20px;
+    }
+
+    /* RESPONSIVE TEXT */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <h2>Archit</h2>
+  </nav>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Archit Kesar</h1>
+    <p>BTech ECE Student | Web Developer</p>
+    <p>Email: kesararchit223@gmail.com</p>
+  </header>
+
+  <!-- CONTENT -->
+  <section>
+    <div class="grid">
+
+      <div class="card">
+        <h2>Objective</h2>
+        <p>Motivated BTech ECE student with skills in web development. Looking for opportunities to apply my technical knowledge and build real-world projects.</p>
+      </div>
+
+      <div class="card" id="education">
+        <h2>Education</h2>
+        <p><strong>BTech in Electronics and Communication Engineering</strong><br>
+        NMAMIT College<br>
+        Second Semester</p>
+      </div>
+
+      <div class="card" id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Basic C++</li>
+          <li>Web Design</li>
+          <li>HTML & CSS</li>
+          <li>Problem Solving</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Coding</li>
+          <li>Learning new technologies</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+ 
+</body>
+</html>
